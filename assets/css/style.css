@@ -1,0 +1,195 @@
+/*all doc formating*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eef0f1;
+    background-image: url("../../assets/images/dust_scratches.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+    /*header box*/
+
+header {
+    width: 100%;
+    margin: 0 0 80px 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    
+}
+
+h1 {
+    margin: 0;
+    padding: .5em;
+    width: 8em;
+    float: left;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+a:hover {
+    color: #595858;
+}
+
+.name-head {
+    float: left;
+    margin: 0;
+}
+
+#headwidth {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+        /*link styling*/
+
+.links {
+    margin: 0;
+    float: right;
+    padding: 30px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #777777;
+    text-decoration: none;
+}
+
+.links a {
+    margin: 0;
+    padding: 0 10px 0 10px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0 1px 0 0;        
+}
+
+.links a.last {
+    border-width: 0;
+}
+
+        /*the magic thing that makes my page work*/
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+    /*main content box*/
+
+h2 {
+    margin: 0;
+    margin-bottom: 16px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+section {
+    margin: 0 auto;
+    padding: 1.5em;
+    max-width: 960px;
+    min-width: 500px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.container-align {
+    margin: 1em 0 1em 0;
+
+}
+    /*shoe box*/
+footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+.footer-spacer,
+footer {
+    margin: 100px 0 0 0;
+    width: 100%;
+    padding: 20px 0;    
+    border-top-width: 8px;
+}
+
+/*index.html specific css*/
+
+section p {
+    margin: 0 0 1em 0;
+}
+
+#bio-image {
+    height: 200px;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+/*portfolio.html specific css*/
+
+h3 {
+    margin: 0;
+    padding: 8px 0 8px 0;
+    width: 200px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 12px; 
+}
+
+.portfolio-align {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio-links {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+}
+
+.portfolio-links:hover {
+    opacity: .5;
+}
+
+.portfolio-links:active {
+    opacity: .8;
+}
+
+/*contact.html specific css*/
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #3f8c88;
+}
+
+.button:active {
+    background-color: #4aaaa5;
+}
