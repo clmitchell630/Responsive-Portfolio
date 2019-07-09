@@ -201,10 +201,10 @@ h3 {
 
 /* Media Responsive CSS */
 
-@media screen and (max-width: 1073px) {
+@media screen and (max-width: 980px) {
    
     section{
-        width: 600px;
+        width: 550px;
         margin: 50px;
     }
 
@@ -215,8 +215,17 @@ h3 {
     }
     
     #headwidth {
-        max-width: 1020px;
+        max-width: 900px;
         margin: 0 auto;
     }
     
+    /*portfolio*/
+
+    .portfolio-links {
+       text-align: left;
+       margin: 12px;
+    }
+    .portfolio-align {
+        width: 100%;
+    }
 }
