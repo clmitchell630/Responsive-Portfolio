@@ -178,6 +178,15 @@ h3 {
 
 /*contact.html specific css*/
 
+.name-email{
+    width: 955px; 
+    height: 18px
+}
+.msgbox {
+    max-width: 955px; 
+    min-width: 955px; 
+    height: 200px;
+}
 .button {
     background-color: #4aaaa5;
     border: none;
@@ -227,5 +236,17 @@ h3 {
     }
     .portfolio-align {
         width: 100%;
+    }
+
+    /*contact*/
+
+    .name-email{
+        width: 545px; 
+        height: 18px
+    }
+    .msgbox {
+        max-width: 545px; 
+        min-width: 545px; 
+        height: 150px;
     }
 }
