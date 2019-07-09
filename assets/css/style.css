@@ -250,3 +250,125 @@ h3 {
         height: 150px;
     }
 }
+@media screen and (max-width: 768px) {
+   
+    section{
+        width: 600px;
+        margin: 50px;
+    }
+
+    .header-spacer{
+        height: 5px;
+        width: 50%;
+        
+    }
+    
+    #headwidth {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    
+    /*portfolio*/
+
+    .portfolio-links {
+       text-align: left;
+       margin: 12px;
+    }
+    .portfolio-align {
+        width: 100%;
+    }
+
+    /*contact*/
+
+    .name-email{
+        width: 600px; 
+        height: 18px;
+        padding: 2px;
+    }
+    .msgbox {
+        max-width: 600px; 
+        min-width: 600px; 
+        height: 150px;
+    }
+}
+@media screen and (max-width: 980px) {
+   
+    section{
+        width: 550px;
+        margin: 50px;
+    }
+
+    .header-spacer{
+        height: 5px;
+        width: 100%;
+        
+    }
+    
+    #headwidth {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    /*portfolio*/
+
+    .portfolio-links {
+       text-align: left;
+       margin: 12px;
+    }
+    .portfolio-align {
+        width: 100%;
+    }
+
+    /*contact*/
+
+    .name-email{
+        width: 545px; 
+        height: 18px
+    }
+    .msgbox {
+        max-width: 545px; 
+        min-width: 545px; 
+        height: 150px;
+    }
+}
+@media screen and (max-width: 640px) {
+   
+    section{
+        width: 550px;
+        margin: 10px;
+    }
+
+    .header-spacer{
+        height: 5px;
+        width: 50%;
+        
+    }
+    
+    #headwidth {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    
+    /*portfolio*/
+
+    .portfolio-links {
+       text-align: left;
+       margin: 12px;
+    }
+    .portfolio-align {
+        width: 100%;
+    }
+
+    /*contact*/
+
+    .name-email{
+        width: 600px; 
+        height: 18px;
+        padding: 2px;
+    }
+    .msgbox {
+        max-width: 600px; 
+        min-width: 600px; 
+        height: 150px;
+    }
+}
