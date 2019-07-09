@@ -11,7 +11,7 @@ body {
     line-height: 1.5em;
 }
 
-    /*header box*/
+/*header box*/
 
 header {
     margin: 0 auto;
@@ -20,7 +20,6 @@ header {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
 }
-
 
 h1 {
     margin: 0;
@@ -37,6 +36,7 @@ a {
     color: #777777;
     text-decoration: none;
 }
+
 a:hover {
     color: #4aaaa5;
 }
@@ -46,10 +46,9 @@ a:hover {
     margin: 0;
 }
 
-.header-spacer{
+.header-spacer {
     height: 100px;
     width: 100%;
-    
 }
 
 #headwidth {
@@ -57,7 +56,7 @@ a:hover {
     margin: 0 auto;
 }
 
-        /*link styling*/
+/*link styling*/
 
 .links {
     margin: 0;
@@ -74,14 +73,14 @@ a:hover {
     padding: 0 10px 0 10px;
     border-style: solid;
     border-color: #dddddd;
-    border-width: 0 1px 0 0;        
+    border-width: 0 1px 0 0;
 }
 
 .links a.last {
     border-width: 0;
 }
 
-        /*the magic thing that makes my page work*/
+/*the magic thing that makes my page work*/
 
 .clearfix::after {
     content: "";
@@ -89,7 +88,7 @@ a:hover {
     clear: both;
 }
 
-    /*main content box*/
+/*main content box*/
 
 h2 {
     margin: 0;
@@ -110,9 +109,10 @@ section {
 
 .container-align {
     margin: 1em 0 1em 0;
-
 }
-    /*shoe box*/
+
+/*shoe box*/
+
 footer {
     left: 0;
     bottom: 0;
@@ -121,12 +121,12 @@ footer {
     border-top-color: #4aaaa5;
     border-top-style: solid;
 }
-.footer-spacer,
-footer {
+
+.footer-spacer, footer {
     margin: 100px 0 0 0;
     width: 100%;
     height: 50px;
-    padding: 20px 0;    
+    padding: 20px 0;
     border-top-width: 8px;
 }
 
@@ -153,7 +153,7 @@ h3 {
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 12px; 
+    bottom: 12px;
 }
 
 .portfolio-align {
@@ -178,15 +178,17 @@ h3 {
 
 /*contact.html specific css*/
 
-.name-email{
-    width: 955px; 
+.name-email {
+    width: 955px;
     height: 18px
 }
+
 .msgbox {
-    max-width: 955px; 
-    min-width: 955px; 
+    max-width: 955px;
+    min-width: 955px;
     height: 200px;
 }
+
 .button {
     background-color: #4aaaa5;
     border: none;
@@ -211,164 +213,167 @@ h3 {
 /* Media Responsive CSS */
 
 @media screen and (max-width: 980px) {
-   
-    section{
+    section {
         width: 550px;
         margin: 50px;
     }
-
-    .header-spacer{
+    .header-spacer {
         height: 5px;
         width: 100%;
-        
     }
-    
     #headwidth {
         max-width: 900px;
         margin: 0 auto;
     }
-    
     /*portfolio*/
-
     .portfolio-links {
-       text-align: left;
-       margin: 12px;
+        text-align: left;
+        margin: 12px;
     }
     .portfolio-align {
         width: 100%;
     }
-
     /*contact*/
-
-    .name-email{
-        width: 545px; 
+    .name-email {
+        width: 545px;
         height: 18px
     }
     .msgbox {
-        max-width: 545px; 
-        min-width: 545px; 
+        max-width: 545px;
+        min-width: 545px;
         height: 150px;
     }
 }
+
 @media screen and (max-width: 768px) {
-   
-    section{
+    section {
         width: 600px;
         margin: 50px;
     }
-
-    .header-spacer{
+    .header-spacer {
         height: 5px;
         width: 50%;
-        
     }
-    
     #headwidth {
         max-width: 650px;
         margin: 0 auto;
     }
-    
     /*portfolio*/
-
     .portfolio-links {
-       text-align: left;
-       margin: 12px;
+        text-align: left;
+        margin: 12px;
     }
     .portfolio-align {
         width: 100%;
     }
-
     /*contact*/
-
-    .name-email{
-        width: 600px; 
+    .name-email {
+        width: 600px;
         height: 18px;
         padding: 2px;
     }
     .msgbox {
-        max-width: 600px; 
-        min-width: 600px; 
+        max-width: 600px;
+        min-width: 600px;
         height: 150px;
     }
 }
+
 @media screen and (max-width: 980px) {
-   
-    section{
+    section {
         width: 550px;
         margin: 50px;
     }
-
-    .header-spacer{
+    .header-spacer {
         height: 5px;
         width: 100%;
-        
     }
-    
     #headwidth {
         max-width: 900px;
         margin: 0 auto;
     }
-    
     /*portfolio*/
-
     .portfolio-links {
-       text-align: left;
-       margin: 12px;
+        text-align: left;
+        margin: 12px;
     }
     .portfolio-align {
         width: 100%;
     }
-
     /*contact*/
-
-    .name-email{
-        width: 545px; 
+    .name-email {
+        width: 545px;
         height: 18px
     }
     .msgbox {
-        max-width: 545px; 
-        min-width: 545px; 
+        max-width: 545px;
+        min-width: 545px;
         height: 150px;
     }
 }
+
 @media screen and (max-width: 640px) {
-   
-    section{
-        width: 550px;
-        margin: 10px;
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .links {
+        margin: 0 0 auto;
+        float: none;
+        padding: 20px;
+        font-size: 18px;
     }
 
-    .header-spacer{
-        height: 5px;
-        width: 50%;
+    header {
+        margin: 0;
+        padding: 0;
         
     }
-    
+    h1 {
+        margin: 0;
+        font-size: 4em;
+        padding: 30px 0 30px 0;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .name-head {
+        float: none;
+        margin: 0;
+    }
+    .header-spacer {
+        height: 20px;
+        width: 100%;
+    }
     #headwidth {
-        max-width: 650px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    section {
+        width: 85%;
         margin: 0 auto;
     }
-    
     /*portfolio*/
-
     .portfolio-links {
-       text-align: left;
-       margin: 12px;
+        text-align: left;
+        margin: 20px;
+        width: 100%;
     }
     .portfolio-align {
         width: 100%;
     }
-
     /*contact*/
-
-    .name-email{
-        width: 600px; 
+    .name-email {
+        width: 600px;
         height: 18px;
         padding: 2px;
     }
     .msgbox {
-        max-width: 600px; 
-        min-width: 600px; 
+        max-width: 600px;
+        min-width: 600px;
         height: 150px;
     }
 }
