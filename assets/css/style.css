@@ -334,7 +334,7 @@ h3 {
         font-size: 4em;
         padding: 30px 0 30px 0;
         width: 100%;
-        min-width: 480px;
+        min-width: 100%;
         float: none;
         text-align: center;
     }
@@ -348,7 +348,7 @@ h3 {
     }
     #headwidth {
         width: 100%;
-        min-width: 480px;
+        min-width: 100%;
         margin: 0;
         padding: 0;
     }
